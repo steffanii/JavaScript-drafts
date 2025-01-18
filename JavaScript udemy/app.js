@@ -1,6 +1,6 @@
-if (1 + 1 === 2) {
+/* if (1 + 1 === 2) {
     console.log("MATH STILL WORKS")
-}
+ }
 let random = Math.random();
 if (random > 0.5) {
     console.log(random, "YOUR NUMBER IS GREATER THAN 0.5!!")
@@ -27,7 +27,28 @@ if (dayofWeek === 'monday') {
 }
  const password = prompt("imput your password!");
  if (password.length >= 6 ) {
-    console.log("Password is long")
+    if (password.indexOf(' ') === -1) {
+        console.log(" Valid Password")
+     } else {
+        console.log('password cannot contain spaces')
+     }
+    
  } else {
     console.log("password too short")
- }
+  }
+
+
+let userinput = prompt("enter name")
+
+if (userinput) {
+    console.log("truthy")
+} else {
+    console.log("falsy")
+} */
+
+const password = prompt("Enter password");
+if (password.length >= 6 && password.indexOf(" ") === -1) {
+    console.log("Valid password!!")
+} else {
+    console.log("Incorrect format")
+}
