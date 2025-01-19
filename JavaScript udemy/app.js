@@ -44,11 +44,22 @@ if (userinput) {
     console.log("truthy")
 } else {
     console.log("falsy")
-} */
+} 
 
 const password = prompt("Enter password");
 if (password.length >= 6 && password.indexOf(" ") === -1) {
     console.log("Valid password!!")
 } else {
     console.log("Incorrect format")
+}  
+
+
+const age = 90;
+if (age < 5 || age >=65)  {
+    console.log("FREE")
+} */
+
+let firstName = prompt("enter your first name");
+if (!firstName) {
+    firstName = prompt("enter your first name");
 }
