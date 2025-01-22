@@ -57,9 +57,17 @@ if (password.length >= 6 && password.indexOf(" ") === -1) {
 const age = 90;
 if (age < 5 || age >=65)  {
     console.log("FREE")
-} */
+} 
 
 let firstName = prompt("enter your first name");
 if (!firstName) {
     firstName = prompt("enter your first name");
-}
+} */
+
+
+let days = ['Monday', 'Tuesday', 'wednesday'];
+days.length
+days[0]
+days[0][1]
+days[2]= "Thurday"
+days
