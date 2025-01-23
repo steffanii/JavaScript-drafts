@@ -71,3 +71,11 @@ days[0]
 days[0][1]
 days[2]= "Thurday"
 days
+let movieLine = ["Tom", "Nancy"]
+movieLine.push("Oliver")
+movieLine.push("Eva", "harry")
+movieLine.pop()
+movieLine
+movieLine.shift()
+movieLine.unshift("VIP")
+movieLine
