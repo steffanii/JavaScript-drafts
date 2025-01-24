@@ -79,3 +79,8 @@ movieLine
 movieLine.shift()
 movieLine.unshift("VIP")
 movieLine
+let cats = ["blue",'kitty']
+let dogs = ['rusty', 'wyatts']
+cats.concat(dogs)
+cats.includes('blue')
+cats.reverse()
