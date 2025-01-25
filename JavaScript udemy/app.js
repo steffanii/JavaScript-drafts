@@ -84,3 +84,10 @@ let dogs = ['rusty', 'wyatts']
 cats.concat(dogs)
 cats.includes('blue')
 cats.reverse()
+let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+colors.slice(2, 5)    /* (start point(included), endpoint(not included))  */
+colors.slice(-4)
+colors.splice(5,1)  /* (startpoint, howmany you want to delete) */
+colors.splice(1,0,'red-orange') /* AT INDEX 1 insert red-orange and delete 0(nothing) */
+let sccores = [ 1,50,2500,6,-12, 89]
+scores.sort()
