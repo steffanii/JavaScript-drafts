@@ -91,3 +91,7 @@ colors.splice(5,1)  /* (startpoint, howmany you want to delete) */
 colors.splice(1,0,'red-orange') /* AT INDEX 1 insert red-orange and delete 0(nothing) */
 let sccores = [ 1,50,2500,6,-12, 89]
 scores.sort()
+const nums = [1,2,4]
+nums.push(5)  /* This will work for arrays but if you try creating a new num , it wont work*/
+const gameboard = [['X', 'O', 'X'], ["O", null, "X"], ['O', 'O', 'X']]
+gameboard[1][1]
