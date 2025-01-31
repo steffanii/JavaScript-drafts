@@ -95,3 +95,5 @@ const nums = [1,2,4]
 nums.push(5)  /* This will work for arrays but if you try creating a new num , it wont work*/
 const gameboard = [['X', 'O', 'X'], ["O", null, "X"], ['O', 'O', 'X']]
 gameboard[1][1]
+typeof []
+const person = {firstname: "Nick", lastname: "Jagger"}
