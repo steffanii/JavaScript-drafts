@@ -97,3 +97,8 @@ const gameboard = [['X', 'O', 'X'], ["O", null, "X"], ['O', 'O', 'X']]
 gameboard[1][1]
 typeof []
 const person = {firstname: "Nick", lastname: "Jagger"}
+const KitchenSink = {
+    favNum : 92902244,
+    isFunny : true,
+    colors : ["red", "orange"]
+}
