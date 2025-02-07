@@ -97,8 +97,21 @@ const gameboard = [['X', 'O', 'X'], ["O", null, "X"], ['O', 'O', 'X']]
 gameboard[1][1]
 typeof []
 const person = {firstname: "Nick", lastname: "Jagger"}
-const KitchenSink = {
+const kitchenSink = {
     favNum : 92902244,
     isFunny : true,
     colors : ["red", "orange"]
 }
+person["lastname"]
+kitchenSink["colors"] /* OR */
+person.firstname
+const midterm= {Danielle : 96, Thomas : 78}
+midterm.Thomas = 80;
+midterm.Antonio = 45;
+midterm["ezra"] = 65;  
+
+const comments = [
+    {username : "Tammy", text: "lololol", votes: 9},
+    {username: "FishBol", text: "glubglub", votes: 1245}
+]
+comments[1].text
