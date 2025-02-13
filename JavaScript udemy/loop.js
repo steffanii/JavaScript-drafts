@@ -34,7 +34,7 @@ for (let i = 0; i <=10; i++) {
     for (let j = 1; j < 4; j++) {
         console.log(`   j is: ${j}`)
     }
-} */
+} 
 
 
  const seatingChart = [
@@ -47,4 +47,16 @@ for (let i = 0; i <=10; i++) {
     console.log(`ROW ${i +1}`)
     for (let j=0; j < row.length; j++)
         console.log(row[j])
- }
+ }    */
+let count = 0
+while (count < 10) {
+    console.log(count)
+    count++;
+}
+const Secret = "BabyHippo";
+
+let guess = prompt("Enter the secret code");
+while (guess !== Secret) {
+    guess = prompt("Enter the secret code");
+}
+console.log("Congrats, you have gotten the secret code")
