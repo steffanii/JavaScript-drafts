@@ -47,7 +47,7 @@ for (let i = 0; i <=10; i++) {
     console.log(`ROW ${i +1}`)
     for (let j=0; j < row.length; j++)
         console.log(row[j])
- }    */
+ }    
 let count = 0
 while (count < 10) {
     console.log(count)
@@ -60,3 +60,11 @@ while (guess !== Secret) {
     guess = prompt("Enter the secret code");
 }
 console.log("Congrats, you have gotten the secret code")
+*/
+
+let input = prompt("Hey, say something")
+while (true) {
+    input = prompt(input) ;
+    if(input === "stop copying me") break;
+}
+console.log("Okay you win!")
