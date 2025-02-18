@@ -60,11 +60,39 @@ while (guess !== Secret) {
     guess = prompt("Enter the secret code");
 }
 console.log("Congrats, you have gotten the secret code")
-*/
 
 let input = prompt("Hey, say something")
 while (true) {
     input = prompt(input) ;
     if(input === "stop copying me") break;
 }
-console.log("Okay you win!")
+console.log("Okay you win!")   */
+
+let maximum = parseInt(prompt("Enter the maximum number "))
+while (!maximum) {
+    maximum = parseInt(prompt("Enter a valid number!"));
+
+}
+
+const targetNum = Math.floor(Math.random() * maximum) + 1;
+console.log(targetNum);
+
+let guess = parseint(prompt("Enter your first guess!"));
+let attempts = 1;
+
+while (parseInt(guess) !== targetNum) {
+    if (guess ==="q") break;
+    attempt ++;
+    if (guess > targetNum) {
+        guess =parseInt(prompt("Too high! Enter a new guess"));
+    } else {
+        guess =parseInt(prompt("Too Low! Enter a new guess"));
+    }
+}
+
+if (guess ==="q") {
+    console.log("Ok, YOU QUIT!")
+} else {
+    console.log("YOU GOT IT")
+    console.log(`You got! it took you ${attempts} guesses`)
+}
