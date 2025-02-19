@@ -34,7 +34,7 @@ for (let i = 0; i <=10; i++) {
     for (let j = 1; j < 4; j++) {
         console.log(`   j is: ${j}`)
     }
-} 
+} */
 
 
  const seatingChart = [
@@ -42,7 +42,7 @@ for (let i = 0; i <=10; i++) {
     ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
     ['Yuma', 'Sakura', 'Jack', "Erika"]
  ]   
- for (let i= 0; i < seatingChart.length; i++) {
+ /* for (let i= 0; i < seatingChart.length; i++) {
     const row = seatingChart[i];
     console.log(`ROW ${i +1}`)
     for (let j=0; j < row.length; j++)
@@ -52,8 +52,15 @@ let count = 0
 while (count < 10) {
     console.log(count)
     count++;
+}   */
+
+
+for (let row of seatingChart) {
+    for (let student of row) {
+        console.log(students);
+    }
 }
-const Secret = "BabyHippo";
+/* const Secret = "BabyHippo";
 
 let guess = prompt("Enter the secret code");
 while (guess !== Secret) {
@@ -66,7 +73,7 @@ while (true) {
     input = prompt(input) ;
     if(input === "stop copying me") break;
 }
-console.log("Okay you win!")   */
+console.log("Okay you win!")   
 
 let maximum = parseInt(prompt("Enter the maximum number "))
 while (!maximum) {
@@ -95,4 +102,15 @@ if (guess ==="q") {
 } else {
     console.log("YOU GOT IT")
     console.log(`You got! it took you ${attempts} guesses`)
+} 
+
+
+const subreddits = ["Cringe", "books", "Chicken", "funny", "pics", "Soccer"]
+
+for (let i = 0; i < subreddits.length; i++) {
+    console.log(`Visit reddit.com/r/${subreddits[i]}`)
 }
+
+for (let sub of subreddits) {
+    console.log(sub)
+}   */
