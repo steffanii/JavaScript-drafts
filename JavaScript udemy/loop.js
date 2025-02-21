@@ -34,7 +34,7 @@ for (let i = 0; i <=10; i++) {
     for (let j = 1; j < 4; j++) {
         console.log(`   j is: ${j}`)
     }
-} */
+} 
 
 
  const seatingChart = [
@@ -42,7 +42,7 @@ for (let i = 0; i <=10; i++) {
     ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
     ['Yuma', 'Sakura', 'Jack', "Erika"]
  ]   
- /* for (let i= 0; i < seatingChart.length; i++) {
+ for (let i= 0; i < seatingChart.length; i++) {
     const row = seatingChart[i];
     console.log(`ROW ${i +1}`)
     for (let j=0; j < row.length; j++)
@@ -52,7 +52,7 @@ let count = 0
 while (count < 10) {
     console.log(count)
     count++;
-}   */
+}  
 
 
 for (let row of seatingChart) {
@@ -60,7 +60,7 @@ for (let row of seatingChart) {
         console.log(students);
     }
 }
-/* const Secret = "BabyHippo";
+ const Secret = "BabyHippo";
 
 let guess = prompt("Enter the secret code");
 while (guess !== Secret) {
@@ -113,4 +113,37 @@ for (let i = 0; i < subreddits.length; i++) {
 
 for (let sub of subreddits) {
     console.log(sub)
-}   */
+}   
+
+const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
+
+// WRITE YOUR LOOP BELOW THIS LINE
+for (let num of numbers) {
+    product = num * num;
+    console.log(product)
+} }
+*/
+const testScores = {
+    keenan: 80,
+    Damian: 76,
+    kim: 90,
+    marlon: 56,
+    vonnie:60,
+
+}
+/*
+for (let person in testScores) {
+    console.log(`${person} scored ${testScores[person]}`);
+}
+
+Object.keys(testScores)
+Object.values(testScores)
+Object.entries(testScores) */
+
+let total = 0;
+let scores = Object.values(testScores);
+for (let score of scores) {
+    total += score;
+   
+}
+console.log(total/ scores.length)
