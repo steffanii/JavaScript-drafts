@@ -122,7 +122,7 @@ for (let num of numbers) {
     product = num * num;
     console.log(product)
 } }
-*/
+
 const testScores = {
     keenan: 80,
     Damian: 76,
@@ -138,7 +138,7 @@ for (let person in testScores) {
 
 Object.keys(testScores)
 Object.values(testScores)
-Object.entries(testScores) */
+Object.entries(testScores) 
 
 let total = 0;
 let scores = Object.values(testScores);
@@ -146,4 +146,5 @@ for (let score of scores) {
     total += score;
    
 }
-console.log(total/ scores.length)
+console.log(total/ scores.length) */
+
